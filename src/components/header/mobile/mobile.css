@@ -1,0 +1,45 @@
+.mobile{
+    background-color: white;
+    /* height: 100vh; */
+    height: calc(100vh - 30px);
+    width: 60vw;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 15px 14px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* overflow-y: hidden; */
+}
+
+.close-icon {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 30px;
+}
+
+.mobile-options{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* background-color: red; */
+    padding-top: 24px;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    /* text-align: left; */
+}
+
+.mobile-option{
+    font-size: 24px;
+    margin: 12px 0px;
+    display: flex;
+    width: 130px;
+}
+
+.mobile-option a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+}
