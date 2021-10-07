@@ -1,7 +1,19 @@
 import React from "react";
+import { ProjectData } from "../../data/project";
+import ProjectCard from "./ProjectCard";
 import "./projects.css";
 const Projects = () => {
-  return <div>projects</div>;
+  const data = ProjectData;
+  return (
+    <div className="projects">
+      <label className="section-title">Projects</label>
+      <div>
+        {data.map((project) => {
+          return <ProjectCard project={project} />;
+        })}
+      </div>
+    </div>
+  );
 };
 
 export default Projects;

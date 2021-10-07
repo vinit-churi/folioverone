@@ -1,0 +1,46 @@
+.about{
+    padding-bottom: 48px;
+}
+.about-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_image{
+    height: 560px;
+}
+
+.about-info{
+    font-size: 24px;
+}
+
+.info-name{
+    color: blue;
+    font-size: 32px;
+}
+
+@media only screen and (max-width: 728px) {
+    .about-top{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+    }
+    .about-photo{
+        display: flex;
+        /* justify-content: center; */
+    }
+    .about_image{
+        height: auto;
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .about-info{
+        font-size: 20px;
+    }
+    .info-name{
+        font-size: 26px;
+    }
+}
