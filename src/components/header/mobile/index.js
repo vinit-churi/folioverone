@@ -12,25 +12,37 @@ const Mobile = ({ isOpen, setIsOpen }) => {
         <CgCloseO />
       </div>
       <div className="mobile-options">
-        <div className="mobile-option option-icon">
+        <div
+          onClick={() => setIsOpen(!isOpen)}
+          className="mobile-option option-icon"
+        >
           <a href="#project">
             <AiOutlineCode />
             Projects
           </a>
         </div>
-        <div className="mobile-option option-icon">
+        <div
+          onClick={() => setIsOpen(!isOpen)}
+          className="mobile-option option-icon"
+        >
           <a href="#skills">
             <SiXcode />
             Skills
           </a>
         </div>
-        <div className="mobile-option option-icon">
+        <div
+          onClick={() => setIsOpen(!isOpen)}
+          className="mobile-option option-icon"
+        >
           <a href="#work">
             <GoFileSubmodule />
             work
           </a>
         </div>
-        <div className="mobile-option option-icon">
+        <div
+          onClick={() => setIsOpen(!isOpen)}
+          className="mobile-option option-icon"
+        >
           <a href="#Contract">
             <TiContacts />
             Contract
