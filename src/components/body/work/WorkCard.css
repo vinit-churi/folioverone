@@ -1,0 +1,44 @@
+.WorkCard{
+    padding: 8px;
+    width: 40%;
+    margin-top: 16PX;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    min-width: 322px;
+}
+
+.work-logo{
+    height: 80px;
+    margin: 0px 40px;
+}
+
+.work-info{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.work-dates{
+    color: gray;
+}
+
+.work-dates{
+    text-align: left;
+}
+
+.work-desc{
+    /* width: ; */
+}
+
+.company-name{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 728px) {
+    .WorkCard{
+        width: 100%;
+    }
+}
