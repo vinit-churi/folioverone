@@ -16,7 +16,7 @@ const Mobile = ({ isOpen, setIsOpen }) => {
           onClick={() => setIsOpen(!isOpen)}
           className="mobile-option option-icon"
         >
-          <a href="#project">
+          <a href="#projects">
             <AiOutlineCode />
             Projects
           </a>
@@ -43,7 +43,7 @@ const Mobile = ({ isOpen, setIsOpen }) => {
           onClick={() => setIsOpen(!isOpen)}
           className="mobile-option option-icon"
         >
-          <a href="#Contract">
+          <a href="#contact">
             <TiContacts />
             Contract
           </a>

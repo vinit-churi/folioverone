@@ -26,7 +26,7 @@ const Web = () => {
         </a>
       </div>
       <div className="web-option option-icon">
-        <a href="#Contract">
+        <a href="#contact">
           <TiContacts />
           Contract
         </a>

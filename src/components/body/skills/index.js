@@ -8,7 +8,9 @@ const Skills = () => {
   return (
     <div className="skills">
       <Seperator />
-      <label className="section-title">Skills</label>
+      <label id="skills" className="section-title">
+        Skills
+      </label>
       <div className="skills-container">
         {data.map((item) => {
           return (
